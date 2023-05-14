@@ -7,5 +7,4 @@ export default {
 }
 </script>
 <script setup lang="tsx">
-let a: string = 12;
 </script>
