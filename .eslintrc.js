@@ -1,4 +1,9 @@
 module.exports = {
+  env: {
+    browser: true,
+    node: true,
+    es6: true,
+  },
   "parser": "vue-eslint-parser",
   extends: [
     "eslint:recommended",
@@ -7,13 +12,4 @@ module.exports = {
     "plugin:vue/vue3-strongly-recommended",
     'plugin:vue/vue3-recommended',
   ],
-  "parserOptions": {
-    "sourceType": "module",
-    "ecmaVersion": 2018,
-    "ecmaFeatures": {
-      "globalReturn": false,
-      "impliedStrict": false,
-      "jsx": false
-    }
-  }
 }
